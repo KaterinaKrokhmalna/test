@@ -74,11 +74,20 @@ letter-spacing: -0.28px;
     margin-bottom: 24px;
 }
 .aboutblock-img-two{
-    margin-bottom: 24px;
+  
 }
+.aboutblock-img{
+    padding-bottom: 146px;
+
+}
+
+/*
+-webkit-mask-image: url(#якірне посилання)
 .aboutblock-img-three{
-    margin-left: auto;
-}
+    position: absolute;
+    left: ;
+    top: 1300px;
+}*/
 
 @media screen and (min-width: 375px) {
     .container{
