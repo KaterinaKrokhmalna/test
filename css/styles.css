@@ -1,0 +1,154 @@
+
+:root {
+	--color-dark-blue: #11131f;
+	--color-light-green: #93abae;
+	--color-linear-green: linear-gradient(to bottom, #bec7c2 0%,#a1b5ba 100%);
+	--color-white: #f6f5ef;
+	--color-blue-2: #1f212d;
+}
+   
+h1, h2, h3, h4, h5, h6, p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul, ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img{
+    display: block;
+}
+
+.container{
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+body{
+    background-color:var(--color-dark-blue);
+
+}
+.list{
+    list-style: none;
+}
+
+.aboutblock-text{
+color: var(--color-white);
+font-family: DM Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 1.2; 
+letter-spacing: -1.08px;
+margin-bottom: 40px;
+
+}
+.aboutblock-list{
+color: var(--color-white);
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.4;
+letter-spacing: -0.28px;
+}
+.aboutblock-list{
+    display: flex;
+    gap:14px;
+}
+.aboutblock-list-text{
+    width: 160px;
+}
+.aboutblock-list-card{
+    width: 161px;
+}
+.text-yacht{
+    color: #BEC7C2;
+    font-style: italic;
+}
+.aboutblock-img{
+    margin-top: 40px;
+}
+.aboutblock-card-img{
+    margin-bottom: 24px;
+}
+.aboutblock-img-two{
+    margin-bottom: 24px;
+}
+.aboutblock-img-three{
+    margin-left: auto;
+}
+
+@media screen and (min-width: 375px) {
+    .container{
+        width: 375px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+}
+@media screen and (min-width:  768px) {
+    .container{
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto; 
+        padding: 0 32px;
+    }
+    .aboutblock-list-text{
+        width: 183px;
+    }
+    .aboutblock-list-card{
+        width: 185px;
+      
+    }
+    .aboutblock-list{
+        gap: 32px;
+    }
+    .aboutblock-list{
+    justify-content:flex-end;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: -0.32px;
+    
+    }
+    .aboutblock-text{
+        max-width: 514px;
+        font-size: 32px;
+        letter-spacing: -1.44px;
+    } 
+    .aboutblock-img{
+        margin-top: 64px;
+        position: relative;
+    }
+    .aboutblock-card-img{
+        margin-bottom: 32px;
+    } 
+    .aboutblock-img-three{
+        position: absolute;
+      left: 340px;
+        /*transform: translate(-50%, 250%);*/
+    }
+    .aboutblock-img-two{
+        margin-right: 32px;
+    }
+
+   
+}
+@media screen and (min-width:  1280px) {
+    .container{
+        width: 1280px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .aboutblock-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .aboutblock-text{
+        max-width: 514px; 
+        height: 152px;
+    }  
+   
+   
+}
+
