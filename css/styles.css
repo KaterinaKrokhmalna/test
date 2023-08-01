@@ -64,30 +64,40 @@ letter-spacing: -0.28px;
     width: 161px;
 }
 .text-yacht{
-    color: #BEC7C2;
+    color: var(--light-green, #93abae);
+    
     font-style: italic;
 }
 .aboutblock-img{
-    margin-top: 40px;
+    padding-top: 40px;
 }
 .aboutblock-card-img{
     margin-bottom: 24px;
+    
 }
-.aboutblock-img-two{
-  
-}
+
 .aboutblock-img{
     padding-bottom: 146px;
 
 }
-
-/*
--webkit-mask-image: url(#якірне посилання)
 .aboutblock-img-three{
     position: absolute;
-    left: ;
-    top: 1300px;
-}*/
+    top: 24px;
+    left: 75px;
+    z-index: 1;
+
+}
+
+@media only screen and (max-width: 374px){
+    .aboutblock-img-three{
+        position: absolute;
+        top: 24px;
+        left: 70px;
+        width: 75%;
+    
+    }
+
+}
 
 @media screen and (min-width: 375px) {
     .container{
@@ -95,7 +105,22 @@ letter-spacing: -0.28px;
         margin-left: auto;
         margin-right: auto; 
     }
+   
 }
+@media screen and (max-width:  767px) {
+    .aboutblock-card-img{
+       
+        width: 100%;
+    }
+    .aboutblock-img-two{
+      width: 100%;
+    }
+    .aboutblock-imges-three{
+        position: relative;
+    }
+   
+}
+
 @media screen and (min-width:  768px) {
     .container{
         width: 768px;
@@ -124,21 +149,26 @@ letter-spacing: -0.28px;
         max-width: 514px;
         font-size: 32px;
         letter-spacing: -1.44px;
+        margin-bottom: 32px;
     } 
     .aboutblock-img{
-        margin-top: 64px;
+        padding-top: 64px;
         position: relative;
     }
     .aboutblock-card-img{
         margin-bottom: 32px;
     } 
-    .aboutblock-img-three{
-        position: absolute;
-      left: 340px;
-        /*transform: translate(-50%, 250%);*/
-    }
     .aboutblock-img-two{
         margin-right: 32px;
+    }
+    .aboutblock-img-three{
+        position: absolute;
+        top: 927px;
+        left: 340px;
+    
+    }
+    .aboutblock-img {
+        padding-bottom: 83px;
     }
 
    
@@ -157,7 +187,31 @@ letter-spacing: -0.28px;
         max-width: 514px; 
         height: 152px;
     }  
-   
+    .aboutblock-img{
+        position: relative;
+        height: 701px;
+    }
+    .aboutblock-card-img{
+        position: absolute;
+        left: 340px;
+        top:64px;
+
+    }
+    .aboutblock-img-two{
+        position: absolute;
+        bottom: 0;
+        top: 317px;
+
+    }
+    .aboutblock-img-three{
+        position: absolute;
+        top: 569px;
+        left: 340px;
+    
+    }
+    .aboutblock-img{
+        padding: 0;
+    }
    
 }
 
